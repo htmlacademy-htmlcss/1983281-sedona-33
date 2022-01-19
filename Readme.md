@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Михальченко](https://up.htmlacademy.ru/htmlcss/33/user/1983281).
-* Наставник: [Евгений Бервяченок](https://github.com/htmlJackson).
+* Наставник: [Евгений Бервяченок](https://htmlacademy.ru/profile/jackson).
 
 ---
 
