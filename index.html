@@ -11,10 +11,10 @@
     <!-- Шапка -->
     <header class="page-header">
       <nav class="navigation">
+        <ul class="navigation-logo">
+          <img class="logo-city-of-sedona" src="images/head-logo.svg" width="139" height="70" alt="Логотип «Седона».">
+        </ul>
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <img class="logo-city-of-sedona" src="images/head-logo.svg" width="139" height="70" alt="Логотип «Седона».">
-          </li>
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -40,7 +40,7 @@
     </header>
 
     <!-- Лого -->
-    <main class="main-index">
+    <main class="main-container">
       <section class="main-block">
       <h1 class="visually-hidden">Sedona</h1>
       <img class="main-logo-title" src="images/main-logo-title.svg" width="458" height="352" alt="Логотип «Sedona»».">
@@ -51,12 +51,14 @@
       </section>
 
       <!-- Основной контент -->
-      <section class="description">
-        <h2 class="description-title">Настоящий<br> городок</h2>
-        <p class="number">- №1 -</p>
-        <p class="description-text">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
-      </section>
-      <img class="description-foto-sedona" src="images/description-foto-sedona.jpg" width="800" height="384" alt="Фото Седоны">
+      <div class="reason-one">
+        <section class="description">
+          <h2 class="description-title">Настоящий<br> городок</h2>
+          <p class="number">- №1 -</p>
+          <p class="description-text">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
+        </section>
+        <img class="description-foto-sedona" src="images/description-foto-sedona.jpg" width="800" height="384" alt="Фото Седоны">
+      </div>
 
       <section class="service">
         <h2 class="visually-hidden">Услуги</h2>
@@ -79,12 +81,14 @@
         </ul>
       </section>
 
-      <img class="devil-bridge-photo" src="images/devil-bridge.jpg" width="800" height="384" alt="Фото моста дьявола">
-        <section class="devil-bridge">
-        <h2 class="devil-bridge-title">Там есть<br> мост дьявола</h2>
-        <p class="number">- №2 -</p>
-        <p class="devil-bridge-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
-      </section>
+      <div class="reason-two">
+        <img class="devil-bridge-photo" src="images/devil-bridge.jpg" width="800" height="384" alt="Фото моста дьявола">
+          <section class="devil-bridge">
+          <h2 class="devil-bridge-title">Там есть<br> мост дьявола</h2>
+          <p class="number">- №2 -</p>
+          <p class="devil-bridge-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
+        </section>
+      </div>
 
       <section class="advantages">
         <h2 class="visually-hidden">Причины приехать в Седону</h2>
