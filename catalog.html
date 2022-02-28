@@ -58,7 +58,7 @@
           </header>
 
           <section class="hotels-parametres">
-            <h2 class="visually-hidden">Выбор параметров по фильтрам</h2>
+          <h2 class="visually-hidden">Выбор параметров по фильтрам</h2>
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -107,7 +107,7 @@
                 </ul>
               </fieldset>
               <div class="cost-container">
-                <p class="cost">Стоимость,Р:</p>
+                <p class="cost">Стоимость, ₽:</p>
               </div>
               <div class="buttons">
                 <button class="button-accept" type="submit">Применить</button>
@@ -158,9 +158,11 @@
                 <img class="product-card-image" src="images/hotel-amara.jpg" width="300" height="206" alt="Amara Resort & Spa">
                 <h3 class="product-card-title">Amara Resort & Spa</h3>
               </a>
-              <p class="product-card-price">Гостиница От 4000 ₽</p>
+              <p class="product-card-type">Гостиница</p>
+              <p class="product-card-price">От 4000 ₽</p>
               <a class="product-card-button details" href="#">Подробнее</a>
               <a class="product-card-button to-favorites" href="#">В избранное</a>
+              <p class="product-card-stars">4 stars</p>
               <p class="product-card-rating">Рейтинг: 8,5</p>
             </li>
             <li class="product-card">
@@ -168,9 +170,11 @@
                 <img class="product-card-image" src="images/hotel-desert-quail.jpg" width="300" height="206" alt="Desert Quail Inn">
                 <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
-              <p class="product-card-price">Гостиница От 3000 ₽</p>
+              <p class="product-card-type">Гостиница</p>
+              <p class="product-card-price">От 3000 ₽</p>
               <a class="product-card-button details" href="#">Подробнее</a>
               <a class="product-card-button to-favorites" href="#">В избранное</a>
+              <p class="product-card-stars">3 stars</p>
               <p class="product-card-rating">Рейтинг: 8,9</p>
             </li>
             <li class="product-card">
@@ -178,9 +182,11 @@
                 <img class="product-card-image" src="images/hotel-villas-poco.jpg" width="300" height="206" alt="Villas at Poco Diablo">
                 <h3 class="product-card-title">Villas at Poco Diablo</h3>
               </a>
-              <p class="product-card-price">Гостиница От 2000 ₽</p>
+              <p class="product-card-type">Гостиница</p>
+              <p class="product-card-price">От 2000 ₽</p>
               <a class="product-card-button details" href="#">Подробнее</a>
               <a class="product-card-button favorites" href="#">В избранном</a>
+              <p class="product-card-stars">2 stars</p>
               <p class="product-card-rating">Рейтинг: 9,2</p>
             </li>
             <li class="product-card">
@@ -188,13 +194,17 @@
                 <img class="product-card-image" src="images/hotel-green-tree.jpg" width="300" height="206" alt="Green Tree Inn">
                 <h3 class="product-card-title">Green Tree Inn</h3>
               </a>
-              <p class="product-card-price">Гостиница От 3000 ₽</p>
+              <p class="product-card-type">Гостиница</p>
+              <p class="product-card-price">От 3000 ₽</p>
               <a class="product-card-button details" href="#">Подробнее</a>
               <a class="product-card-button to-favorites" href="#">В избранное</a>
+              <p class="product-card-stars">2 stars</p>
               <p class="product-card-rating">Рейтинг: 9,2</p>
             </li>
           </ul>
-          <button class="pagination-show-more" type="button">Загрузить ещё</button>
+          <div class="container-show-more">
+            <button class="pagination-show-more" type="button">Загрузить ещё</button>
+          </div>
 
           <div class="pagination-container">
             <ul class="pagination">
@@ -239,7 +249,7 @@
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="subscribe-email">Email</label>
+            <label for="subscribe-email" class="visually-hidden">Email</label>
             <input class="field" placeholder="Ваш email" type="email" name="newsletter-email" id="newsletter-email" required>
             <button class="subscribe-button" type="submit">Подписаться</button>
           </form>
