@@ -722,9 +722,12 @@ html {
 
 .advantages-title,
 .advantages-description,
-.devil-bridge-description,
-.description-text {
+.devil-bridge-description {
   margin: 0 auto;
+}
+
+.description-text {
+  margin: 0 104.04px;
 }
 
 .number {
@@ -1602,12 +1605,35 @@ html {
 }
 
 .tooltip-toggle {
-  background-color: transparent;
+  position: absolute;
+  right: -6px;
+  top: 2px;
+  height: 25px;
+  width: 25px;
+  background-color: #83B3D3;
   border: none;
+  border-radius: 50%;
+  content: '';
 }
 
-.tooltip-icon {
-  color: #83B3D3;
+.tooltip-toggle:hover {
+  position: absolute;
+  right: -6px;
+  top: 2px;
+  height: 25px;
+  width: 25px;
+  background-color: #68A2CA;
+  border: none;
+  border-radius: 50%;
+  content: '';
+}
+
+.tooltip-toggle::before {
+  content: 'i';
+  color: white;
+  position: absolute;
+  right: 10.6px;
+  top: 4.5px;
 }
 
 .tooltip-toggle .tooltip-icon:hover {
