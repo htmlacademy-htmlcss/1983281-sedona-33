@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
     <title>Гостиницы</title>
   </head>
   <body>
@@ -162,17 +163,9 @@
           <div class="search-result">
             <p class="search-overall">Найдено гостиниц: 38</p>
             <select class="select-control-sort" aria-label="Сортировка">
-              <ul class="select-control-list">
-                <li class="select-control-item">
-                  <option value="popular">Сначала популярные</option>
-                </li>
-                <li class="select-control-item">
-                  <option value="cheap" selected>Сначала дешёвые</option>
-                </li>
-                <li class="select-control-item">
-                  <option value="expensive">Сначала дорогие</option>
-                </li>
-              </ul>
+              <option value="popular">Сначала популярные</option>
+              <option value="cheap" selected>Сначала дешёвые</option>
+              <option value="expensive">Сначала дорогие</option>
             </select>
             <ul class="search-select-view">
               <li class="search-select-view-item">
@@ -355,17 +348,9 @@
             </ul>
             <p class="number-card-view">Гостиниц на странице:</p>
             <select class="select-control" aria-label="Сортировка">
-              <ul class="select-control-list">
-                <li class="select-control-item">
-                  <option value="four" selected>4</option>
-                </li>
-                <li class="select-control-item">
-                  <option value="ten">10</option>
-                </li>
-                <li class="select-control-item">
-                  <option value="all">Все</option>
-                </li>
-              </ul>
+              <option value="four" selected>4</option>
+              <option value="ten">10</option>
+              <option value="all">Все</option>
             </select>
           </div>
         </section>
@@ -375,7 +360,7 @@
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="subscribe-email" class="visually-hidden">Email</label>
+            <label class="visually-hidden" for="newsletter-email">Email</label>
             <input class="field" placeholder="Ваш email" type="email" name="newsletter-email" id="newsletter-email" required>
             <button class="subscribe-button" type="submit">Подписаться</button>
           </form>

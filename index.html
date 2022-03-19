@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
     <title>Седона</title>
   </head>
   <body>
@@ -59,16 +60,16 @@
         </section>
         <div class="divider"></div>
         <section class="short-description">
-          <h2 class="main-about-sedona">Седона - небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+          <h2 class="main-about-sedona">Седона - небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
           <p class="main-reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
 
         <!-- Основной контент -->
         <div class="reason-one">
           <section class="description">
-            <h2 class="description-title">Настоящий<br> городок</h2>
+            <h2 class="description-title">Настоящий<br>городок</h2>
             <p class="number">- №1 -</p>
-            <p class="description-text">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
+            <p class="description-text">Седона — не аттракцион<br>для туристов, там течёт<br>своя жизнь</p>
           </section>
           <img class="description-foto-sedona" src="images/description-foto-sedona.jpg" width="800" height="384" alt="Фото Седоны">
         </div>
@@ -135,7 +136,7 @@
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="subscribe-email" class="visually-hidden">Email</label>
+            <label class="visually-hidden" for="newsletter-email">Email</label>
             <input class="field invalid" placeholder="Ваш email" type="email" name="newsletter-email" id="newsletter-email" required>
             <button class="subscribe-button" type="submit">Подписаться</button>
           </form>
@@ -202,13 +203,13 @@
           </section>
           <section class="check-in-date">
             <p>Дата заезда:</p>
-            <input class="field-modal" type="text" id="appointment-date" name="appointment-date" placeholder="27 апреля 2020">
+            <input class="field-modal" type="text" id="appointment-date-check-in" name="appointment-date-check-in" placeholder="27 апреля 2020">
             <button class="calendar-check-in" type="button"></button>
           </section>
           <p class="mistake-message">Мы не можем отправить Вас в прошлое</p>
           <section class="check-out-date">
             <p>Дата выезда:</p>
-            <input class="field-modal" type="text" id="appointment-date" name="appointment-date" placeholder="1 сентября 2021">
+            <input class="field-modal" type="text" id="appointment-date-check-out" name="appointment-date-check-in" placeholder="1 сентября 2021">
           </section>
           <button class="calendar-check-out" type="button"></button>
           <p class="success-message">На эти даты есть свободные номера. Пока есть.</p>
@@ -232,11 +233,7 @@
             <section class="children">
               <p class="category">Дети:</p>
               <span class="tooltip">
-                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
-                  <svg class="tooltip-icon" width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#E5E5E5" d="M0 0h25v25H0z"/><g clip-path="url(#a)">
-                    <path fill="#F2F2F2" d="M-750-751H530v3315H-750z"/><g filter="url(#b)"><path fill="#fff" d="M-710-751H490v3315H-710z"/></g><path fill="#fff" d="M-710-201H490V81H-710z"/><path fill="#F2F2F2" fill-opacity=".8" d="M-750-751H530v3315H-750z"/><g filter="url(#c)"><rect x="-468" y="-355" width="715" height="561" rx="30" fill="#fff"/></g><circle cx="12.5" cy="12.5" r="12.5" fill="#83B3D3"/><g clip-path="url(#d)" fill="#fff"><path d="M12 17h1v-6h-1v6ZM13 8h-1v1h1V8Z"/></g></g><defs><clipPath id="a"><path fill="#fff" transform="translate(-750 -751)" d="M0 0h1280v3315H0z"/></clipPath><clipPath id="d"><path fill="#fff" transform="translate(12 8)" d="M0 0h1v9H0z"/></clipPath><filter id="b" x="-725" y="-766" width="1230" height="3345" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset/><feGaussianBlur stdDeviation="7.5"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/></filter><filter id="c" x="-518" y="-380" width="815" height="661" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset dy="25"/><feGaussianBlur stdDeviation="25"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/></filter></defs>
-                  </svg>
-                </button>
+                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label"></button>
                 <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
               </span>
               <div class="select-container">
